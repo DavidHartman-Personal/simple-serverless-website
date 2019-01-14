@@ -13,5 +13,11 @@ The below shows the process flow/architecture for this lab
 
 ## Steps
 
+### 1. Setup S3 bucket to host static Website
+create new S3 bucket and configure to host a static website
+
+### 2. Upload files to S3 bucket
+Upload index.html and error.html files to newly created S3 bucket.
+
 [comment]: # (references used in README)
 [Serverless Website]:images/Serverless-Website-Lab.jpeg
