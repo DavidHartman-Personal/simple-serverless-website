@@ -1,5 +1,5 @@
 # **Simple Serverless Website Lab as part of acloudguru course**
-This is part of a set of labs/tutorials [serverless-website](../)
+This is part of a set of labs/tutorials [serverless-website-labs]
 
 ## Overview
 This part creates a simple website page hosted on S2
@@ -20,5 +20,6 @@ create new S3 bucket and configure to host a static website
 Upload index.html and error.html files to newly created S3 bucket.
 
 [comment]: # (references used in README)
+[serverless-website-labs]:../README.md
 [Serverless Website]:../images/Serverless-Website-Lab.jpeg
 [Part-1]:part-1/
