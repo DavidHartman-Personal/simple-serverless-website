@@ -1,8 +1,8 @@
 # **Simple Serverless Website Lab as part of acloudguru course**
+This is part of a set of labs/tutorials [serverless-website](../)
 
 ## Overview
-This lab creates a simple serverless website and then builds on this to implement a polly service.  It utilizes API Gateway, Lambda, etc.
-The following modules are a part of this lab.
+This part creates a simple website page hosted on S2
 1. [Part-1]: Serve static web page from S3 bucket and call simple lambda function
 2. Part-2: 
 3. Part-3: 
