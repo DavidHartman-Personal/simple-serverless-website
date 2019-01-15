@@ -1,11 +1,11 @@
 # **Simple Serverless Website Lab as part of acloudguru course**
 
 ## Overview
-This lab creates a simple serverless website which will later be extended to use the polly service. It was part of the A cloud guru Developer Associate Certification course.  
-At a high level the following steps are performed in this lab.
-1. Setup S3 bucket to host static website
-2. Create index.html and error.html
-3. Create Lambda function for hellocloudgurus
+This lab creates a simple serverless website and then builds on this to implement a polly service.  It utilizes API Gateway, Lambda, etc.
+The following modules are a part of this lab.
+1. ![alt text][Part-1]: Serve static web page from S3 bucket and call simple lambda function
+2. Part-2: 
+3. Part-3: 
 
 ## Architecture
 The below shows the process flow/architecture for this lab
@@ -21,3 +21,4 @@ Upload index.html and error.html files to newly created S3 bucket.
 
 [comment]: # (references used in README)
 [Serverless Website]:images/Serverless-Website-Lab.jpeg
+[Part-1]:part-1/
