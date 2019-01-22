@@ -45,7 +45,23 @@ In the index.html file located in the S3 bucket, update xhttp.open function call
 xhttp.open("GET", "https://y2iqw4meh8.execute-api.us-east-1.amazonaws.com/Production/MyServerlessWebsite", true);
 ```
 
-The index.html file has a single javascript function called 'myFunction()' as noted below.  This function opens a GET request to the API Endpoint via the URL
+The index.html file has a single javascript function called 'myFunction()' as noted below.  This function opens a GET request to the API Endpoint via the URL:
+```
+<script>
+			function myFunction() {
+				var xhttp = new XMLHttpRequest();
+				xhttp.onreadystatechange = function() {
+					if (this.readyState == 4 && this.status == 200) {
+					document.getElementById("my-demo").innerHTML = this.responseText;
+					}
+				};
+				xhttp.open("GET", "https://y2iqw4meh8.execute-api.us-east-1.amazonaws.com/Production/MyServerlessWebsite", true);
+				xhttp.send();
+
+			}
+
+	</script>
+```
 
 In the body of the HTML there is a button defined that calls the 'myFunction()' function when a button is clicked.
 ```
