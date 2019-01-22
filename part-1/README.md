@@ -55,4 +55,4 @@ In the body of the HTML there is a button defined that calls the 'myFunction()' 
 				
 [comment]: # (references used in README)
 [serverless-website-labs]:../README.md
-[Serverless Website Process Flow-Part 1]:../images/Serverless-Website-Acloudguru-ProcessFlow-Part-1
+[Serverless Website Process Flow-Part 1]:../images/Serverless-Website-Acloudguru-ProcessFlow-Part-1.jpeg
