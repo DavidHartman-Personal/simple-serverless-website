@@ -1,11 +1,12 @@
-# **Simple Serverless Website Lab as part of acloudguru course**
-This is part of a set of labs/tutorials [serverless-website-labs]
+# **Versioning and Aliases of Lambda Functions**
+This is part of a set of labs/tutorials [serverless-website-labs] with this part focusing on versioning and aliases of Lambda functions.
 
 ## Overview
-This part creates a simple website page hosted on S2
-1. [Part-1]: Serve static web page from S3 bucket and call simple lambda function
-2. Part-2: 
-3. Part-3: 
+This part creates multiple versions of a Lambda function, sets up aliases and then configures traffic routing
+1. Create a simple Lambda function
+2. Create 3 versions of the Lambda function
+3. Create aliases for the Lambda function for the latest version and a previous version
+
 
 ## Architecture
 The below shows the process flow/architecture for this lab

@@ -4,7 +4,7 @@
 This lab creates a simple serverless website and then builds on this to implement a polly service.  It utilizes API Gateway, Lambda, etc.
 The following modules are a part of this lab.
 1. [Part-1]: Serve static web page from S3 bucket and call simple lambda function
-2. Part-2: 
+2. [Part-2]: Create multiple versions and aliases of Lambda functions and setup traffic shifting
 3. Part-3: 
 
 ## Architecture
@@ -22,3 +22,4 @@ Upload index.html and error.html files to newly created S3 bucket.
 [comment]: # (references used in README)
 [Serverless Website]:images/Serverless-Website-Lab.jpeg
 [Part-1]:part-1/
+[Part-2]:part-2/
