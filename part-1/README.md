@@ -48,9 +48,10 @@ xhttp.open("GET", "https://y2iqw4meh8.execute-api.us-east-1.amazonaws.com/Produc
 The index.html file has a single javascript function called 'myFunction()' as noted below.  This function opens a GET request to the API Endpoint via the URL
 
 In the body of the HTML there is a button defined that calls the 'myFunction()' function when a button is clicked.
-		'<h1>Hello <span id="my-demo">Cloud Gurus!</span></h1>
-		<button onclick="myFunction()">Click me</button>'
-
+```
+<h1>Hello <span id="my-demo">Cloud Gurus!</span></h1>
+<button onclick="myFunction()">Click me</button>
+```
 
 				
 [comment]: # (references used in README)
